@@ -1,6 +1,6 @@
 # test-jupyter-book
 Repository for testing out jupyter-book and jupyter_to_medium
-
+TEST
 ## Instructions to reproduce
 
 Preliminaries:
