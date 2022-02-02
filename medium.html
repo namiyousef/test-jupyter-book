@@ -424,13 +424,7 @@
 </div>
 <p>For most people, doing this should give you access to a ‘deploy’ button under File within your Jupyter notebook.</p>
 <p>If not (like in my case) then you need to run <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">bundlerextension</span> <span class="pre">enable</span> <span class="pre">--py</span> <span class="pre">jupyter_to_medium._bundler</span> <span class="pre">--sys-prefix</span></code>.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#&lt;!--![insert](images/insert.png)--&gt;</span>
-</pre></div>
-</div>
-</div>
-</div>
+<p><img alt="insert" src="_images/insert.png" /></p>
 <p>Now you can use this to deploy your notebook to Medium. There are some options on how images are to be compressed, ands whether you want your code converted to gists. For this article, I’ve just used the default options to see what the outcome is like.</p>
 </div>
 <div class="section" id="tests-on-jupyter-to-medium">
@@ -550,7 +544,7 @@
 </div>
 </div>
 </div>
-<p>Since I am running locally, I see ‘Pandas import failed.’ above, because I’m in an environment that is not using Pandas. However, the requirements file for the project does have pandas in it. This means that the published version of this page (see <a class="reference external" href="https://namiyousef.github.io/practical-data-science/medium.html">here</a>). Should actually output a different message.</p>
+<p>Since I am running locally, I see ‘Pandas import failed.’ above, because I’m in an environment that is not using Pandas. However, the requirements file for the project does have pandas in it. This means that the published version of this page (see <a class="reference external" href="https://namiyousef.github.io/test-jupyter-book/medium.html">here</a>). Should actually output a different message.</p>
 </div>
 <div class="section" id="pushing-to-github">
 <h3>Pushing to GitHub<a class="headerlink" href="#pushing-to-github" title="Permalink to this headline">¶</a></h3>
@@ -561,29 +555,12 @@
 <h3>Making Changes<a class="headerlink" href="#making-changes" title="Permalink to this headline">¶</a></h3>
 <p>Once your project is linked to GitHub, any new commits to the project will trigger the GitHub action. This will automatically run some tests on GitHub.</p>
 <p>On your latest commit, you’ll be able to see an orange dot that indicates that tests are being run. After this is complete, you will either get a cross or a tick.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;&lt;!--![cross](images/cross.png)</span>
-<span class="sd">![tick](images/tick.png)--&gt;&quot;&quot;&quot;</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;&lt;!--![cross](images/cross.png)\n![tick](images/tick.png)--&gt;&#39;
-</pre></div>
-</div>
-</div>
-</div>
+<p><img alt="cross" src="_images/cross.png" />
+<img alt="tick" src="_images/tick.png" /></p>
 <p>This indicates whether the test was successful or not. If not, you will need to look into the logs of the test. Remember that the details of the tests run are found in <code class="docutils literal notranslate"><span class="pre">.github/workflows/deploy.yml</span></code> so it’s always a good to start there.</p>
 <p>If successful, then your project will be deployed on GitHub pages!
 You can see on the side of your repository for the latest build and visit it from there:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#&lt;!--![gh-pages](images/gh-pages.png)--&gt;</span>
-</pre></div>
-</div>
-</div>
-</div>
+<p><img alt="gh-pages" src="_images/gh-pages.png" /></p>
 </div>
 </div>
 <div class="section" id="thoughts-and-takeaways">
