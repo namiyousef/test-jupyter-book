@@ -1,17 +1,5 @@
-# Welcome to your Jupyter Book
-Why am I not triggering a change?
-Please
-This is a small sample book to give you a feel for how book content is
-structured.
+# Welcome to the Jupyter Book!
 
-:::{note}
-Here is a note!
-:::
+I hope you enjoy reading the article, and that you learn some thing new.
 
-And here is a code block:
-
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
+Link to Medium article for comparison:
