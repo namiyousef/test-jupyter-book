@@ -3,3 +3,4 @@ matplotlib
 numpy
 ghp-import
 nbconvert==5.6.1
+pandas
